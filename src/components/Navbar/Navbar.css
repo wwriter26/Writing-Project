@@ -1,0 +1,15 @@
+.wp__navbar {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.wp__logo {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+}

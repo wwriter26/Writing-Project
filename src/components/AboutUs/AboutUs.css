@@ -1,0 +1,11 @@
+.aboutus__images {
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover; /* Ensures the image aspect ratio is maintained */
+  display: block; /* Ensures the image is treated as a block element */
+  margin: 0 auto; /* Center-align if needed */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+
+}
