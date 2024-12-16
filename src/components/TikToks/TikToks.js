@@ -21,7 +21,7 @@ const TikToks = () => {
     },
     {
       name: "Jumpstarting A Car",
-      url: "https://www.tiktok.com/@safe.driving.winter",
+      url: "https://www.tiktok.com/@cold.conditions.s/video/7448056344310975775?is_from_webapp=1&sender_device=pc&web_id=7418057621440415274",
       logo: <LuCable/>,
     },
     {
@@ -31,22 +31,23 @@ const TikToks = () => {
     },
     {
       name: "Driving In The Snow ",
-      url: "",
+      url: "https://www.tiktok.com/@cold.conditions.s/video/7449110840684367134?is_from_webapp=1&sender_device=pc&web_id=7418057621440415274",
       logo: <MdDriveEta />,
     },
     {
       name: "Essential Snow Supplies",
-      url: "https://www.tiktok.com/@cold.conditions.s/video/7445095585897598239?is_from_webapp=1&sender_device=pc&web_id=7418057621440415274",
+      url: "https://www.tiktok.com/@cold.conditions.s/video/7449110847831411998?is_from_webapp=1&sender_device=pc&web_id=7418057621440415274",
       logo: <MdOutlineAddShoppingCart />,
     },
   ];
 
   return (
     <Container>
-      <Typography variant="h4" gutterBottom align="center">
+      <Typography variant="h4" gutterBottom align="center" sx={{fontWeight: "bold", backgroundColor: "lightblue", padding: "10px 0px", borderRadius: "10px", width: "75%", display: "flex", alignItems: "center", justifyContent: "center", margin: "auto", marginBottom: "20px"}}>
         TikTok Videos
       </Typography>
-      <Typography variant="body1" align="center" paragraph>
+
+      <Typography variant="body1" align="center" sx={{paddingBottom: "30px", margin: "10px 0px 20px 0px !important", backgroundColor: "aliceblue", padding: "5px 10px", borderRadius: "5px"}}>
         Check out our TikTok profiles for winter driving tips, snowstorm preparation, and safety advice.
       </Typography>
       <Grid container spacing={4}>

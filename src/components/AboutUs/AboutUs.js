@@ -14,7 +14,7 @@ const AboutUs = () => {
 
   return (
     <Container>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom sx={{fontWeight: "bold", backgroundColor: "lightblue", padding: "10px 0px", borderRadius: "10px", width: "75%", display: "flex", alignItems: "center", justifyContent: "center", margin: "auto", marginBottom: "20px"}}>
         Our Roles
       </Typography>
       <Grid container spacing={4}>
